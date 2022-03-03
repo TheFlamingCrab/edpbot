@@ -60,7 +60,6 @@ namespace edpbot
 
         static void Main(string[] args)
         {
-            Console.WriteLine(HashText("alexander.kervin@student.education.wa.edu.au", "alexander.kervin@student.education.wa.edu.au", SHA1.Create()));
             subjClass = new();
 
             if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
